@@ -1,0 +1,78 @@
+{
+  "input_image": "/Users/katelee/Projects/gretchen-3d-room-mapper/data/pose_validation/test_images/charuco_test.png",
+  "calibration": {
+    "camera_matrix_file": "camera_matrix.npy",
+    "distortion_coefficients_file": "distortion_coefficients.npy",
+    "camera_index": 0,
+    "image_width": 640,
+    "image_height": 480,
+    "calibration_source": "Existing calibration from the same Gretchen camera",
+    "status": "valid"
+  },
+  "board": {
+    "dictionary": "DICT_6X6_250",
+    "squares_x": 7,
+    "squares_y": 5,
+    "square_length_m": 0.0465,
+    "marker_length_m": 0.035
+  },
+  "pose": {
+    "detected_markers": 17,
+    "detected_charuco_corners": 24,
+    "rotation_vector_board_to_camera": [
+      0.09286835061224928,
+      -0.3194718158263953,
+      -0.035868775168756625
+    ],
+    "translation_vector_board_to_camera_m": [
+      -0.39136158627457285,
+      -0.27987409400219726,
+      1.6396135020810911
+    ],
+    "rotation_matrix_board_to_camera": [
+      [
+        0.9488059784624284,
+        0.020506617413137578,
+        -0.31519310569272435
+      ],
+      [
+        -0.04989962617421794,
+        0.9950905187534432,
+        -0.08546863047151547
+      ],
+      [
+        0.3118929985453777,
+        0.09682116570912767,
+        0.9451711058475595
+      ]
+    ],
+    "euler_angles_board_to_camera_deg": {
+      "roll_x": 5.848847243028272,
+      "pitch_y": -18.173348464489642,
+      "yaw_z": -3.0105273914123694
+    },
+    "camera_position_in_board_coordinates_m": [
+      -0.15402337148826276,
+      0.12777626912231124,
+      -1.6969902362701124
+    ],
+    "camera_rotation_matrix_in_board_coordinates": [
+      [
+        0.9488059784624284,
+        -0.04989962617421794,
+        0.3118929985453777
+      ],
+      [
+        0.020506617413137578,
+        0.9950905187534432,
+        0.09682116570912767
+      ],
+      [
+        -0.31519310569272435,
+        -0.08546863047151547,
+        0.9451711058475595
+      ]
+    ],
+    "reprojection_error_px": 0.7989665865898132
+  }
+}

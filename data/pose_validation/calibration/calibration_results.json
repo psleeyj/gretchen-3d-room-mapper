@@ -1,0 +1,9 @@
+{
+  "camera_matrix_file": "camera_matrix.npy",
+  "distortion_coefficients_file": "distortion_coefficients.npy",
+  "camera_index": 0,
+  "image_width": 640,
+  "image_height": 480,
+  "calibration_source": "Existing calibration from the same Gretchen camera",
+  "status": "valid"
+}

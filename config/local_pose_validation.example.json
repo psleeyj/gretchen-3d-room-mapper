@@ -1,0 +1,9 @@
+{
+  "camera_index": 0,
+  "motor_port": "/dev/cu.usbserial-EXAMPLE",
+  "pan_motor_id": 0,
+  "tilt_motor_id": 1,
+  "baud_rate": 57600,
+  "image_width": 640,
+  "image_height": 480
+}
