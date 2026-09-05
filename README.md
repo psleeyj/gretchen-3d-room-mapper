@@ -100,6 +100,11 @@ src/geometry/confidence.py
 src/synthetic_triangulation_test.py
 src/visualize_synthetic.py
 ```
+### Triangulation Robustness
+
+Synthetic experiments evaluated how pixel noise affects 3D reconstruction accuracy. Confidence gating filters unreliable triangulations, substantially reducing reconstruction error under noisy observations.
+
+![Synthetic Triangulation Robustness](outputs/synthetic_triangulation_error.png)
 
 ### Dynamixel Motor Diagnostics
 
