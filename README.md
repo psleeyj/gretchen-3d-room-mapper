@@ -160,6 +160,12 @@ The corresponding numerical pose result is stored in:
 ```text
 data/pose_validation/outputs/charuco_pose_result.json
 
+### Pose Validation Dataset Example
+
+Example image captured during the pose-validation data collection process:
+
+![Pose Validation Sample](data/pose_validation/dataset/images/sample_000.png)
+
 ## What I Worked On
 
 My contributions focused on the **camera pose-validation portion of the 3D mapping pipeline**, including:
