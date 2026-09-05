@@ -151,13 +151,14 @@ gretchen-3d-room-mapper/
 
 ## Example Pose Estimation Result
 
-The repository contains annotated ChArUco pose-estimation output under:
+Below is an example ChArUco-based pose estimation output from the validation pipeline:
+
+![ChArUco Pose Estimation Result](data/pose_validation/outputs/charuco_pose_annotated.png)
+
+The corresponding numerical pose result is stored in:
 
 ```text
-data/pose_validation/outputs/
-```
-
-along with the corresponding numerical pose results in JSON format.
+data/pose_validation/outputs/charuco_pose_result.json
 
 ## What I Worked On
 
